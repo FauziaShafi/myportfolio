@@ -1,0 +1,23 @@
+.nav-img  {
+    width: 100%;
+    height: 130px;
+    background-color: rgb(151, 151, 182);
+    background: url("./navheader.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display:flex;
+    justify-content : space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.link {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    
+
+}
