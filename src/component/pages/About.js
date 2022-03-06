@@ -41,26 +41,14 @@ export default function About() {
       <h4>About Page</h4>
       <img src={avatar} alt="avatar" style={styles.img}/>
       <p style={styles.para}>
-     
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      As a driven and tech-savvy web developer, I have always had a strong gravitational pull toward technology. I am currently pursuing an intensive web development coding certificate at UCSD. I am gaining experience in the foundations of web development while honing my skills in HTML5, CCS, Bootstrap, JavaScript, Jquery, Node, Express, MongoDB and React. 
       </p>
      
      <div style={styles.footer} >
       
-      <div><a href="www.google.com" className=" icon"><i class="fa-brands fa-github"></i></a></div>
-      <div><a href="www.google.com"className="icon"><i class="fa-brands fa-linkedin"></i></a></div>
-      <div><a href="www.google.com"className="icon"><i class="fa-brands fa-stack-overflow"></i></a></div>
+      <div><a href="https://github.com/FauziaShafi" className=" icon"><i class="fa-brands fa-github"></i></a></div>
+      <div><a href="linkedin.com/in/fauzia-shafi-820419228"className="icon"><i class="fa-brands fa-linkedin"></i></a></div>
+      <div><a href="https://www.linkedin.com/in/fauzia-shafi-820419228/"className="icon"><i class="fa-brands fa-stack-overflow"></i></a></div>
 
      </div>
      

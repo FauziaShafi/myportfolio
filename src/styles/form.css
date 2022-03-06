@@ -1,0 +1,38 @@
+.customform {
+    width: 50%;
+   margin: 20px;
+    
+}
+.pad {
+    padding: 10px;
+}
+.hPad{
+    margin-right:20px;
+
+}
+
+.bodyStyle {
+    width: 100%;
+    min-height: 100vh;
+    padding : 2% 6% ;
+    background-color :#f0dedd;
+ 
+   
+    }
+    .footer  {
+        display : flex;
+        justify-content : center;
+        grid-gap :20px;
+     
+      }
+
+      .btnStyle {
+        color: white;
+        background-color: brown;
+        padding: 7px;
+        border-radius: 7px;
+        border: 1px solid brown;
+    
+    }
+    
+    

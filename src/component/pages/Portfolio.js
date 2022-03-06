@@ -1,42 +1,24 @@
 import React from 'react';
+import '../../styles/link.css';
+import '../../styles/portfolio.css';
 const styles = {
   body : {
-    width : "100%",
-    margin : "20px auto"
-    // padding : "20px",
-   },
-  main : {
-   padding : 20 ,
-   background: 'pink', 
-   height : '200px',
-   width : '500px',
-   margin : 10
+    minHeight: "100vh",
+  padding : '2% 6% ',
+  backgroundColor: '#f0dedd',
   
-  },
-  link : {
-    fontSize: '1.4rem',
-    color : "black",
-    fontWeight : 600,
-    textDecoration: 'none'
-  },
-  divRow : {
-    display : 'flex',
-    justifyContent: "center",
-    flexWrap : "wrap"
-  }
-
-
-};
+   },
+}
 
 
 export default function Home() {
   return (
     <div style={styles.body}>
       
-      <h3>Portfolio</h3>
-      <section style={styles.divRow}>
-        <div style={styles.main}>
-        <a href="https://lit-crag-12323.herokuapp.com/" style={styles.link}>
+      <h4 className='pad'>Portfolio</h4>
+      <section className='divRow'>
+      
+        <a href= "https://lit-crag-12323.herokuapp.com/" className='bk0 main link'>
            
            <section class="mini-project">
               <h5>CareTrol</h5>
@@ -44,43 +26,42 @@ export default function Home() {
            </section>
      
       </a>
-        </div>
-        <div style={styles.main}>
-        <a href=" https://fauziashafi.github.io/Weather-Dashboard/" target="_blank" style={styles.link}>
+     
+       
+        <a href=" https://fauziashafi.github.io/Weather-Dashboard/"  className='bk1 main link'>
            
-           <section class="mini-project">
+           <section className="mini-project">
               <h5>Weather Dashboard</h5>
                <p>HTML/CSS/JS</p>
            </section>
      
       </a>
-        </div>
-        <div style={styles.main}>
-        <a href=" https://fauziashafi.github.io/Weather-Dashboard/" target="_blank" style={styles.link}>
+      
+      
+        <a href=" https://fauziashafi.github.io/Weather-Dashboard/"  className='bk2 main link'>
            
-           <section class="mini-project">
+           <section className="mini-project">
               <h5>Weather Dashboard</h5>
                <p>HTML/CSS/JS</p>
            </section>
      
       </a>
-        </div>
-        <div style={styles.main}>
-        <a href="https://fauziashafi.github.io/PasswordGenerator/" style={styles.link}>
-                <section class="mini-project">
+        
+      
+        <a href="https://fauziashafi.github.io/PasswordGenerator/" className='bk3 main link'>
+                <section className="mini-project">
                     <h5>Password Generator</h5> 
                     <p>HTML/CSS/JS</p>
                 </section>
             </a>
-        </div>
-        <div style={styles.main}>
-        <a href="https://fauziashafi.github.io/landing-page/" style={styles.link}>
-                <section class="mini-project">
+      
+        <a href="https://fauziashafi.github.io/landing-page/"  className='bk4 main link'>
+                <section className="mini-project">
                     <h5>Landing Page</h5> 
                     <p>HTML/CSS</p>
                 </section>
             </a>
-        </div>
+   
       </section>
 
      

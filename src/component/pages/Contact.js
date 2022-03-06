@@ -1,22 +1,98 @@
-import React from 'react';
+ import React, { useState }  from 'react';
+import "../../styles/form.css";
+import { validateEmail } from '../../utils/helper';
+
+
 
 export default function Contact() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleInputChange = (e) => {
+
+    // Getting the value and name of the input which triggered the change
+    const { name, value } = e.target;
+    
+   if(name === 'name') {
+     setName(value);
+   } 
+   if(email === 'email') {
+    setEmail(value);
+    validateEmail(value)
+    
+  } 
+  if(message === 'message') {
+    setMessage(value);
+  }
+    
+  };
+  const handleFormSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    e.preventDefault();
+
+    // Alert the user their first and last name, clear the inputs
+    alert(`Hello ${name}`);
+    setName('');
+    setName('');
+  };
+
+
+
+
+  
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div className='bodyStyle '>
+      <h4 className='hpad'>Contact</h4>
+      <div className='customform'>
+      <form>
+        
+        <div className="form-group pad">
+        <label>Name:</label>
+          <input
+            value={name}
+            name="name"
+           onChange={handleInputChange}
+            type="text"
+            class="form-control"
+          />
+          
+        </div>
+        
+         <div className="form-group pad">
+         <label>Email adress: </label>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            class="form-control"
+          />
+         </div>
+
+          <div className="form-group pad">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea  id="exampleFormControlTextarea1" value ={message} class="form-control"rows="3"></textarea>
+          </div>
+          
+         <div  className="form-group pad">
+         <button type="button"
+          onClick={handleFormSubmit} 
+          className='btnStyle'
+          >Submit</button>
+         </div>
+        </form>
+
+      </div>
+      <div className='footer' >
+      
+      <div><a href="www.google.com" className=" icon"><i class="fa-brands fa-github"></i></a></div>
+      <div><a href="www.google.com"className="icon"><i class="fa-brands fa-linkedin"></i></a></div>
+      <div><a href="www.google.com"className="icon"><i class="fa-brands fa-stack-overflow"></i></a></div>
+
+     </div>
+    
+
     </div>
   );
 }
