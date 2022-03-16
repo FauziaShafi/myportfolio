@@ -47,7 +47,7 @@ export default function About() {
      <div style={styles.footer} >
       
       <div><a href="https://github.com/FauziaShafi" className=" icon"><i class="fa-brands fa-github"></i></a></div>
-      <div><a href="linkedin.com/in/fauzia-shafi-820419228"className="icon"><i class="fa-brands fa-linkedin"></i></a></div>
+      <div><a href="www.linkedin.com/in/fauzia-shafi"className="icon"><i class="fa-brands fa-linkedin"></i></a></div>
       <div><a href="https://www.linkedin.com/in/fauzia-shafi-820419228/"className="icon"><i class="fa-brands fa-stack-overflow"></i></a></div>
 
      </div>
