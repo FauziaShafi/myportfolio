@@ -48,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <li className="nav-item">
               <a
                 href="#contact"
-                onClick={() => handlePageChange("Contact")}
+                onClick={() => window.location = 'mailto:fauziashafi12@gmail.com'}
                 className={
                   currentPage === "Contact" ? "nav-link active" : "nav-link"
                 } style={styles.link}

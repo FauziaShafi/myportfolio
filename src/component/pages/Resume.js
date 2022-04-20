@@ -1,4 +1,5 @@
 import React from 'react';
+import ResumePdf from './Fauzia.pdf';
 
 const styles = {
   body : {
@@ -8,7 +9,12 @@ const styles = {
   
    },
    pad : {
-     padding: '20px'
+     padding: '20px',
+     
+   },
+   link : {
+     color: 'red',
+     fontSize : '1.2rem'
    }
 }
 
@@ -19,7 +25,7 @@ export default function Resume() {
       <h4 style={styles.pad}>Resume</h4>
       <div style={styles.pad}>
         Download My{" "}
-        <a href= "www.google.com">
+        <a href={ResumePdf}  style={styles.link} >
           Resume
         </a>
       </div>

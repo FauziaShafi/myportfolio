@@ -1,19 +1,16 @@
+a:hover .overlay {
+  opacity: 1;
+}
 
-  a:hover .overlay {
-    opacity: 1;
-  }
+.icon {
+  color: white;
+  font-size: 30px;
 
-  .icon {
-    color: white;
-    font-size: 30px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  
- 
-  a:hover {
-    color: #eee;
-  }
+a:hover {
+  color: #eee;
+}
