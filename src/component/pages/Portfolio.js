@@ -22,6 +22,9 @@ export default function Home() {
            <section class="mini-project">
               <h5>HappyProgrammers</h5>
                <p>Full Stack</p>
+               <a href="https://github.com/FauziaShafi/HappyThoughts" className=" icon">
+            <i class="fa-brands fa-github"></i>
+          </a>
            </section>
      
       </a>
@@ -33,6 +36,9 @@ export default function Home() {
            <section class="mini-project">
               <h5>CareTrol</h5>
                <p>Full Stack</p>
+               <a href="https://github.com/FauziaShafi/hospital-management-system" className=" icon">
+            <i class="fa-brands fa-github"></i>
+          </a>
            </section>
      
       </a>
@@ -43,16 +49,24 @@ export default function Home() {
            <section className="mini-project">
               <h5>Weather Dashboard</h5>
                <p>HTML/CSS/JS</p>
+               <a href="https://github.com/FauziaShafi" className=" icon">
+            <i class="fa-brands fa-github"></i>
+          </a>
            </section>
      
       </a>
       
       
-        <a href=" https://fauziashafi.github.io/Weather-Dashboard/"  className='bk2 main link'>
+        <a href="https://github.com/FauziaShafi/Employee-Tracker"  className='bk2 main link'>
            
            <section className="mini-project">
-              <h5>Weather Dashboard</h5>
-               <p>HTML/CSS/JS</p>
+              <h5>Employee-Tracker</h5> 
+               <p>HTML/CSS/JS </p>
+               <a href="https://github.com/FauziaShafi/Employee-Tracker" className=" icon">
+            <i class="fa-brands fa-github"></i>
+          </a>
+               
+              
            </section>
      
       </a>
@@ -62,6 +76,9 @@ export default function Home() {
                 <section className="mini-project">
                     <h5>Password Generator</h5> 
                     <p>HTML/CSS/JS</p>
+                    <a href="https://github.com/FauziaShafi/PasswordGenerator" className=" icon">
+            <i class="fa-brands fa-github"></i>
+          </a>
                 </section>
             </a>
       
@@ -69,6 +86,9 @@ export default function Home() {
                 <section className="mini-project">
                     <h5>Landing Page</h5> 
                     <p>HTML/CSS</p>
+                    <a href="https://fauziashafi.github.io/landing-page/" className=" icon">
+            <i class="fa-brands fa-github"></i>
+          </a>
                 </section>
             </a>
    

@@ -61,7 +61,7 @@ export default function About() {
           </a>
         </div>
         <div>
-          <a href="www.linkedin.com/in/fauzia-shafi" className="icon">
+          <a href="https://www.linkedin.com/in/fauzia-shafi/" className="icon">
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
